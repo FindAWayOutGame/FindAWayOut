@@ -1,0 +1,108 @@
+html {
+	background-color: #000000;
+	background-attachment:fixed;
+	background-repeat:no-repeat;
+	background-size: cover;
+	margin: 0;
+	background-image: url(../images/fond_de_page_index.png);
+}
+
+font {
+	font-family: 'Title';
+	src: url('Malaysian.ttf');
+
+	font-family: 'tp';
+	src: url('FreckleFace-Regular.tff');
+
+	font-family: 'par';
+	src: url('FreckleFace-Regular.tff');
+}
+
+.navTitre {
+	color: white;
+}
+
+.titre {
+	padding-left: 100px;
+	font-family: 'tp',Verdana;
+	color: #bbb152;
+	font-size: 50px;
+	line-height: 2;
+	text-align: center;
+	text-shadow: 3px 3px 3px black;
+	width: 900px;
+	height: 3px;
+	margin:5px;
+}
+
+span {
+	border-width: 5px;
+	border-style: solid;
+	border-image: radial-gradient(circle, rgba(187,187,187,1) 0%, rgba(101,101,101,1) 50%, rgba(84,84,84,0) 100%);
+	border-image-slice: 1;
+//	background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(28,26,26,1) 50%, rgba(48,48,48,1) 100%);
+}
+
+.txt {
+	font-family: 'par','Times New Roman';
+	color: yellow;
+	font-size: 30px;
+	line-height: 1;
+}
+
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+nav {
+	position: fixed;
+	right: 0;
+	left: 0;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	min-height: 8vh;
+	background: linear-gradient(0deg, rgba(41,54,55,1) 29%, rgba(0,0,0,1) 93%);
+}
+
+.logo {
+	padding-left: 10px;
+	letter-spacing: 5px;
+	font-size: 20px;
+}
+
+.navLinks {
+	padding-right: 10px;
+	display: flex;
+	justify-content: space-around;
+	width: 500%;
+}
+
+.navLinks li {
+	list-style: none;
+}
+
+.navLinks a {
+	text-decoration: none;
+	letter-spacing: 3px;
+	font-weight: bold;
+	font-size: 20px;
+	color: grey;
+}
+
+.navLinks a:hover {
+	color: red;
+}
+
+.burger {
+	display: none;
+}
+
+.burger div {
+	width: 25px;
+	height: 3px;
+	background-color: lightgrey;
+	margin: 5px;
+}
