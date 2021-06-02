@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Reggae One';
+    src: url('ReggaeOne-Regular.woff2') format('woff2'),
+        url('ReggaeOne-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
